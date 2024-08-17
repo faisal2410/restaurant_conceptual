@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/simple.css" />
     <link rel="stylesheet" href="./styles/custom.css" />
-    <title>Lead Restaurant &bull; <?php echo $pageTitle  ?>  </title>
+    <title>Lead Restaurant &bull; <?= $pageTitle  ?>  </title>
 </head>
 
 <body>
-    <header class="header-with-background" style="background-image: url(<?php echo $headerImg ;?>); ">
+    <header class="header-with-background" style="background-image: url(<?=  $headerImg ?>); ">
         <h1>Lead Restaurant</h1>
         <p>Your sanctuary for exceptional flavors</p>
         <nav>
