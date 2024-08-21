@@ -1,17 +1,18 @@
 <?php
 $pageTitle="Ingredients";
 $headerImg="images/2.jpeg";
-include "inc/header.php";
-?>
-    <h1>Our Ingredients</h1>
-    <p>
-      At Culinary Cove, our core mission is to offer a sanctuary for 
+$paragraph1 ="At Culinary Cove, our core mission is to offer a sanctuary for 
       those who seek exceptional flavors and culinary experiences. 
       We pride ourselves on sourcing only the finest ingredients, 
       carefully crafting dishes that bridge the gap between traditional
       and modern cooking techniques. Our culinary team is driven by a
       shared passion for gastronomy, always striving to create
-      unforgettable meals that resonate with our guests.
+      unforgettable meals that resonate with our guests.";
+include "inc/header.php";
+?>
+    <h1>Our Ingredients</h1>
+    <p>
+      <?php $paragraph1;?>
     </p>
     <figure style="text-align: center;">
       <img style="max-width: 20rem;" 
